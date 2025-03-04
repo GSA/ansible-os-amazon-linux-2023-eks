@@ -1,6 +1,6 @@
 # Amazon 2023 GSA Benchmark
 
-This role configures Amazon Linux 2023 machine to be GSA compliant. Level 1 and 2 profiles will be applied by default based on [Amazon 2023 GSA Benchmarks](https://docs.google.com/spreadsheets/d/1Bf0QBKHbEOLA8tHfqQy7REO90CMnOPVPpZZlE7Ijy8g/edit#gid=884169645)
+This role configures Amazon Linux 2023 optimized for EKS to be GSA compliant. Level 1 and 2 profiles will be applied by default based on [Amazon 2023 GSA Benchmarks](https://docs.google.com/spreadsheets/d/1Bf0QBKHbEOLA8tHfqQy7REO90CMnOPVPpZZlE7Ijy8g/edit#gid=884169645)
 
 ## Role Variables
 
