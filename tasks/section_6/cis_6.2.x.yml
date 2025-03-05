@@ -319,6 +319,7 @@
             state: present
         loop: "{{ discovered_interactive_users_home.stdout_lines }}"
         when: not system_is_container
+        ignore_errors: true
 
       - name: "6.2.10 | PATCH | Ensure local interactive user home directories exist | Set other ACL"
         ansible.posix.acl:
@@ -329,6 +330,7 @@
             state: present
         loop: "{{ discovered_interactive_users_home.stdout_lines }}"
         when: not system_is_container
+        ignore_errors: true
   when:
       - amzn2023cis_rule_6_2_10
   tags:
